@@ -1,0 +1,58 @@
+h1 {
+  font-family: 'Kufam', cursive;
+  color: #D8DBE2;
+  font-size: 2em;
+  padding: 5px;
+}
+
+h2 {
+  color: #DAA49A;
+  padding: 5px 5px 5px 20px;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: #58A4B0;
+  padding: 5px 5px 5px 20px;
+}
+
+p {
+  color: #A9BCD0;
+  text-align: center;
+  padding: 5px 5px 20px 5px;
+}
+
+img {
+  width: 440px;
+  display: inline;
+  padding-left: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+  img {
+      width: 30%;
+      display: inline;
+  }
+
+  h2 {
+      color: #DAA49A;
+      padding: 5px 5px 5px 20px;
+      font-size: 1.5em;
+      width:30%;
+      text-align: center;
+  }
+  
+  h3 {
+      color: #58A4B0;
+      padding: 5px 5px 5px 20px;
+      width: 30%;
+      text-align: center;
+  }
+  
+  p {
+      color: #A9BCD0;
+      padding: 5px 5px 20px 5px;
+      max-width: 30%;
+  }
+
+}

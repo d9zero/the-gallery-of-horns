@@ -1,0 +1,49 @@
+main {
+  box-sizing: border-box;
+}
+
+body {
+  width: 480px;
+  background-color: #373F51;
+}
+
+section {
+  flex-wrap: auto;
+  justify-content: center;
+  display: inline;
+}
+
+
+header{
+  margin: 10px;
+}
+
+footer{
+  display: block;
+}
+
+#horn-template{display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  main {
+      width: 960px;
+      box-sizing: border-box;
+  }
+
+  section{
+      border: 1px solid white;
+      float: left;
+      padding: 2px;
+      max-width: 31%;
+      min-height: 350px;
+      justify-content: center;
+  }
+
+  img{
+      flex-wrap: auto;
+      
+      
+  }
+
+}
